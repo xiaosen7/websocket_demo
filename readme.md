@@ -35,4 +35,6 @@ Connection: Upgrade
 Sec-WebSocket-Accept: m6Fknh1tVIJJYMFswOi6cn3yV+A=
 ```
 >Sec-WebSocket-Accept ：将Sec-WebSocket-Key跟258EAFA5-E914-47DA-95CA-C5AB0DC85B11拼接。通过SHA1计算出摘要，并转成base64字符串。Sec-WebSocket-Key主要目的并不是确保数据的安全性，因为Sec-WebSocket-Key、Sec-WebSocket-Accept的转换计算公式是公开的，而且非常简单，最主要的作用是预防一些常见的意外情况（非故意的）
-## socket.io
+
+
+其他：[socket.io](https://github.com/socketio/socket.io)
